@@ -1,0 +1,11 @@
+swim:
+  gossip:
+    init-delay-ms: 1000
+    interval-ms: 5000
+  lifeguard:
+    suspicion-delay-ms: 30000
+    max-health-monitor: 5
+    min-health-monitor: 0.5
+
+server:
+  shutdown: graceful
